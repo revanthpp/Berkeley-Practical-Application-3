@@ -28,12 +28,6 @@ Four classifiers were trained and compared:
 ![image](https://github.com/user-attachments/assets/148ee756-91e5-4f68-8f0f-ac71f2ea661e)
 
 
-Model	Accuracy	Precision (Class 1)	Recall (Class 1)	F1-score (Class 1)	ROC-AUC
-Logistic Regression	0.91	0.68	0.40	0.50	0.93
-Support Vector Machine	0.91	0.69	0.38	0.49	0.91
-K-Nearest Neighbors	0.90	0.59	0.39	0.47	0.86
-Decision Tree	0.89	0.49	0.52	0.50	0.72
-
 **Key Findings:**
 Logistic Regression had the highest AUC (0.93), indicating the strongest ability to distinguish between classes.
 SVM performed similarly but was slightly more computationally intensive.
